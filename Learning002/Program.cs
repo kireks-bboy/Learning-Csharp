@@ -4,11 +4,24 @@ namespace Learning002 {
 
   class Program {
     static void Main() {
-      Console.WriteLine("Hello 1");
-      Console.WriteLine("Hello 2");
-      Console.WriteLine("Hello 3");
-        
-      Console.ReadKey();
+      Console.Write("Hello 1\n\n");
+
+      // Hello World
+      
+      /*
+      dfdf
+      df
+      df
+      dff
+      df
+      ОГромный
+      Комментарий!
+      */
+
+      Console.Write("Hello 2");
+      Console.Write("Hello 3"); 
+      Console.ReadLine();
+      
     }
   }
 }
