@@ -6,7 +6,7 @@ namespace Learning003 {
     static void Main() {
 int number = -10;
 
-Console.WriteLine("Peremennaya: " + number);
+Console.WriteLine("Peremennaya: " + number + ".");
 
       // Получение данных
       //Console.ReadKey();
