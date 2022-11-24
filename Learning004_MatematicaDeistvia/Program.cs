@@ -5,6 +5,31 @@ namespace Learning003 {
   class Program {
     static void Main() {
 
+System.Console.WriteLine("Vvedite radius kruga: ");
+
+double radius = Convert.ToDouble(Console.ReadLine());
+double area = Math.PI * Math.Pow(radius, 2);
+System.Console.WriteLine("Ploshdad kruga s radiusom {0} ravna {1}", radius, area); // 0 - radius , 1 - area. альтернатива записи чем radius + area и т.д
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // System.Console.WriteLine(Math.Abs(-20));
 // System.Console.WriteLine(Math.Ceiling(4.56));
@@ -12,7 +37,8 @@ namespace Learning003 {
 // System.Console.WriteLine(Math.Round(4.49));
 // System.Console.WriteLine(Math.Min(4 , 2));
 // System.Console.WriteLine(Math.Max(4 , 2));
-System.Console.WriteLine(Math.Pow(4 , 3));
+// System.Console.WriteLine(Math.Pow(4 , 3));
+
 
 
 
