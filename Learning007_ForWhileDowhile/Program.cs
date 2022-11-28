@@ -39,8 +39,10 @@ namespace Learning007
 
       for (short i = 0; i < 10; i++)
       {
-        if (i > 5)
-          break;
+        // if (i > 5)
+        //   break;
+        if(i % 2 == 0)
+        continue;
         System.Console.WriteLine("El: " + i);
       }
     }
