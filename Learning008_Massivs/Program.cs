@@ -5,17 +5,52 @@ namespace Learning008 {
   class Program {
     static void Main() {
      
-short[] numbers = new short[10];
-short summa = 0;
+    //  многомерные массивы
 
-Random random = new Random();
-for(byte i = 0; i < numbers.Length; i++) {
-  numbers[i] = Convert.ToInt16(random.Next(-5, 15));
-  System.Console.WriteLine("El: " + numbers[i]);
+    char[,] symbols = new char[2,3];
+    symbols[0, 0] = 'H';
+    System.Console.WriteLine(symbols[0, 0]); 
 
-  summa += numbers[i];
-}
-System.Console.WriteLine("Summa: " + summa);
+    int[,] nums =  {
+{4,6,7},
+{5,7,3},
+{3, 3, 2}
+    };
+
+nums[1, 2] = 56;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// одномерные массивы
+
+// short[] numbers = new short[10];
+// short summa = 0;
+
+// Random random = new Random();
+// for(byte i = 0; i < numbers.Length; i++) {
+//   numbers[i] = Convert.ToInt16(random.Next(-5, 15));
+//   System.Console.WriteLine("El: " + numbers[i]);
+
+//   summa += numbers[i];
+// }
+// System.Console.WriteLine("Summa: " + summa);
 
 
 
