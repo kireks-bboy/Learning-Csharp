@@ -195,9 +195,154 @@
 
 
 
-string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
-foreach (string i in cars) 
-{
- Console.WriteLine(i);
-}
+// string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+// foreach (string i in cars) 
+// {
+//  Console.WriteLine(i);
+// }
 
+
+
+
+
+
+// System.Console.WriteLine("Введите число");
+// string text = System.Console.ReadLine();
+// int x = Convert.ToInt32(text);
+
+// string result = x > 100? "больше 100" : "меньше 100";
+// System.Console.WriteLine("Результат " + result);
+
+
+
+
+// System.Console.WriteLine("Введите число");
+// string text = System.Console.ReadLine();
+// int x = Convert.ToInt32(text);
+
+// switch (x)
+// {
+//   case 1:
+//   System.Console.WriteLine("Число 1");
+//   break;
+//   case 2:
+//   System.Console.WriteLine("Число 2");
+//   break;
+//   case 3:
+//   System.Console.WriteLine("Число 3");
+//   break;
+//   default:
+//   System.Console.WriteLine("Хз какое то число");
+//   break;
+// }
+
+
+
+
+
+
+// System.Console.WriteLine("Введите строку");
+// string text = System.Console.ReadLine();
+
+// switch (text) 
+// {
+// case "строка 1":
+// System.Console.WriteLine("Первая строка");
+// break;
+// case "строка 2":
+// System.Console.WriteLine("Вторая строка");
+// break;
+// case "строка 3":
+// System.Console.WriteLine("Третья строка");
+// break;
+// default:
+// System.Console.WriteLine("Вам доступно ввести только 1 , 2 и 3 строку");
+// break;
+// }
+
+
+
+// System.Console.WriteLine("Введите строку");
+// string text = System.Console.ReadLine();
+// int x = Convert.ToInt32(text);
+
+// switch (x)
+// {
+// case 1:
+// case 2:
+// case 3:
+// System.Console.WriteLine("Число 1 либо 2 либо 3");
+// break;
+// case 300:
+// System.Console.WriteLine("Это самое у тракториста");
+// break;
+// default:
+// System.Console.WriteLine("Доступно только либо 1 либо 2 либо 3 либо 300");
+// break;
+// }
+
+
+
+
+
+// System.Console.WriteLine("Введите строку");
+// string text = System.Console.ReadLine();
+// int x = Convert.ToInt32(text);
+
+// switch (x)
+// {
+//   case 322:
+//   System.Console.WriteLine("Число 322");
+//   break;
+//   case 300:
+//   System.Console.WriteLine("Число 300");
+//   break;
+//   case 228:
+//   System.Console.WriteLine("Число 228");
+//   System.Console.WriteLine("И его друг");
+//   goto case 300;
+//   default:
+//   System.Console.WriteLine("Хз какое то число");
+//   break;
+// }
+
+
+
+
+// System.Console.WriteLine("Введите первое число");
+// string text1 = System.Console.ReadLine();
+// int num1 = Convert.ToInt32(text1);
+// System.Console.WriteLine("Введите второе число");
+// string text2 = System.Console.ReadLine();
+// int num2 = Convert.ToInt32(text2);
+
+// if (num1 > num2) {
+//   System.Console.WriteLine($"Число {num1} больше чем число {num2}");
+// }
+// else if (num2 > num1) {
+//   System.Console.WriteLine($"Число {num2} больше чем число {num1}");
+// }if (num1 == num2){
+// System.Console.WriteLine($"Числа равны!");
+// }
+
+
+
+System.Console.WriteLine("Давайте узнаем, какое из трех чисел больше других?");
+System.Console.WriteLine("Введите первое число");
+string text1 = System.Console.ReadLine();
+int num1 = Convert.ToInt32(text1);
+System.Console.WriteLine("Введите второе число");
+string text2 = System.Console.ReadLine();
+int num2 = Convert.ToInt32(text2);
+System.Console.WriteLine("Введите третье число");
+string text3 = System.Console.ReadLine();
+int num3 = Convert.ToInt32(text3);
+
+if (num1 > num2 && num1 > num3) {
+  System.Console.WriteLine($"Число {num1} больше");
+}
+else if (num2 > num1 && num2 > num3) {
+  System.Console.WriteLine($"Число {num2} больше");
+}else if (num3 > num2 && num3 > num1){
+System.Console.WriteLine($"Число {num3} больше");
+}
