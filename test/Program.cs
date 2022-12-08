@@ -327,22 +327,122 @@
 
 
 
-System.Console.WriteLine("Давайте узнаем, какое из трех чисел больше других?");
-System.Console.WriteLine("Введите первое число");
-string text1 = System.Console.ReadLine();
-int num1 = Convert.ToInt32(text1);
-System.Console.WriteLine("Введите второе число");
-string text2 = System.Console.ReadLine();
-int num2 = Convert.ToInt32(text2);
-System.Console.WriteLine("Введите третье число");
-string text3 = System.Console.ReadLine();
-int num3 = Convert.ToInt32(text3);
+// System.Console.WriteLine("Давайте узнаем, какое из трех чисел больше других?");
+// System.Console.WriteLine("Введите первое число");
+// string text1 = System.Console.ReadLine();
+// int num1 = Convert.ToInt32(text1);
+// System.Console.WriteLine("Введите второе число");
+// string text2 = System.Console.ReadLine();
+// int num2 = Convert.ToInt32(text2);
+// System.Console.WriteLine("Введите третье число");
+// string text3 = System.Console.ReadLine();
+// int num3 = Convert.ToInt32(text3);
 
-if (num1 > num2 && num1 > num3) {
-  System.Console.WriteLine($"Число {num1} больше");
-}
-else if (num2 > num1 && num2 > num3) {
-  System.Console.WriteLine($"Число {num2} больше");
-}else if (num3 > num2 && num3 > num1){
-System.Console.WriteLine($"Число {num3} больше");
+// if (num1 > num2 && num1 > num3) {
+//   System.Console.WriteLine($"Число {num1} больше");
+// }
+// else if (num2 > num1 && num2 > num3) {
+//   System.Console.WriteLine($"Число {num2} больше");
+// }else if (num3 > num2 && num3 > num1){
+// System.Console.WriteLine($"Число {num3} больше");
+// }
+
+
+
+// static void Main(string[] args)
+// {
+//   string text1 = null;
+//   string text2 = "Строка ололол";
+
+//   string result1 = text1 ?? "там null пришел, рассходимся, чуваки";
+//   string result2 = text2 ?? "там null пришел, рассходимся, чуваки";
+//   System.Console.WriteLine(result1);
+//   System.Console.WriteLine(result2);
+// }
+
+
+
+// string text = System.Console.ReadLine();
+// int x = Convert.ToInt32(text);
+
+// if ( (x>100) && (x < 1000) )
+// {
+//   System.Console.WriteLine("Число больше 100, но при этом меньше 1000");
+// }else{
+//   System.Console.WriteLine("Число меньше 100! Введите число больше 100");
+// }
+
+
+// string text = System.Console.ReadLine();
+// int x = Convert.ToInt32(text);
+
+// if ((x > 100) && (x < 1000))
+// {
+//   System.Console.WriteLine("Число больше 100, но при этом меньше 1000");
+// }
+// if ((x < 100) || (x > 1000))
+// {
+//   System.Console.WriteLine("Число или меньше 100 или больше");
+// }
+
+
+
+// string text = System.Console.ReadLine();
+// int x = Convert.ToInt32(text);
+
+// if ( !(x > 100) )
+// {
+//   System.Console.WriteLine("Число меньше 100");
+// }
+
+
+
+
+// string text = System.Console.ReadLine();
+// int x = Convert.ToInt32(text);
+
+// if ( !(x > 100) )
+// {
+//   System.Console.WriteLine("Число меньше 100");
+// }
+
+
+
+
+
+// string text = System.Console.ReadLine();
+// int x = Convert.ToInt32(text);
+
+// bool result = x > 100;
+// if (!result)
+// {
+//   System.Console.WriteLine("Число меньше 100");
+// }
+
+
+
+
+
+
+// bool result = true;
+// result =!result;
+
+
+
+
+// string text = System.Console.ReadLine();
+// int x = Convert.ToInt32(text);
+
+// if ((x > 100 && x < 1000) || (x > 2000 && x < 20000) || x == 88888888)
+// {
+//   System.Console.WriteLine("x или в пределах от 100 до 1000 или от 2000 до 20000");
+//   System.Console.WriteLine("или х равен 88888888");
+// }
+
+
+
+
+for (int i = 0; i < 5; i++)
+{
+  System.Console.WriteLine("Hello " + i);
 }
